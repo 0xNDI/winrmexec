@@ -3,6 +3,15 @@ Impacket-based WinRM client with support for NTLM and Kerberos authentication ov
 
 (Experimental) `evil_winrmexec.py` adds a custom shell to replicate some of the features of `evil-winrm` like AMSI bypasses ability to download and upload files, run scripts/.NET executables from remote http, etc.
 
+## Installation:
+
+Install directly from the git repository with `uv` or `pipx`:
+
+```bash
+uv tool install git+https://github.com/0xNDI/winrmexec
+pipx install git+https://github.com/0xNDI/winrmexec
+```
+
 ## Examples:
 In the following examples impacket's "target" format will be used: `[[domain/]username[:password]@]<target>`.
 
