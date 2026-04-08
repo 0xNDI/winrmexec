@@ -1,0 +1,16 @@
+[project]
+name = "winrmexec"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = [
+    "impacket",
+    "requests",
+    "prompt_toolkit"
+]
+
+[tool.setuptools]
+py-modules = ["winrmexec", "evil_winrmexec"]
+
+[project.scripts]
+"winrmexec" = "winrmexec:main"
+"evil_winrmexec" = "evil_winrmexec:main"
