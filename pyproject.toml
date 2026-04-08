@@ -9,8 +9,8 @@ dependencies = [
 ]
 
 [tool.setuptools]
-py-modules = ["winrmexec", "evil_winrmexec"]
+py-modules = ["_winrmexec", "_evil_winrmexec"]
 
 [project.scripts]
-"winrmexec" = "winrmexec:main"
-"evil_winrmexec" = "evil_winrmexec:main"
+"winrmexec.py" = "_winrmexec:main"
+"evil_winrmexec.py" = "_evil_winrmexec:main"

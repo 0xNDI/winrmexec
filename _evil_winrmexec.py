@@ -14,7 +14,7 @@ from impacket.examples.utils import parse_target
 
 from Cryptodome.Hash import MD5
 
-from winrmexec import Runspace, create_transport, argument_parser
+from _winrmexec import Runspace, create_transport, argument_parser
 
 # pip install prompt_toolkit
 from prompt_toolkit import prompt, ANSI
